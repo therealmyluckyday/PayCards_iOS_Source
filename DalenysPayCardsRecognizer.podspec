@@ -13,7 +13,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   
   spec.source = {
-#     :http => "https://github.com/therealmyluckyday/PayCards_iOS_Source/releases/download/1.1.7/PayCardsRecognizer.zip"
     :http => "https://www.myluckyday.fr/client/dalenys/ios/paycards/#{version}/PayCardsRecognizer.zip"
   }
 
