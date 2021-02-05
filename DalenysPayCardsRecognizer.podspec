@@ -11,9 +11,9 @@ Pod::Spec.new do |spec|
   spec.social_media_url = 'https://twitter.com/Pay_Cards'
   spec.platform = :ios
   spec.requires_arc = true
-  
+
   spec.source = {
-    :http => "https://www.myluckyday.fr/client/dalenys/ios/paycards/#{version}/PayCardsRecognizer.zip"
+    :http => "https://www.myluckyday.fr/client/dalenys/ios/PayCardsRecognizer/#{version}/PayCardsRecognizer.zip"
   }
 
   spec.ios.vendored_frameworks = "PayCardsRecognizer.xcframework"
